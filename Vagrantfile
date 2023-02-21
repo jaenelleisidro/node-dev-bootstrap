@@ -1,5 +1,5 @@
 Vagrant::Config.run do |config|
-  config.vm.box = "ubuntu/xenial32"
+  config.vm.box = "ubuntu/jammy64"
 
   config.vm.forward_port 3000, 3000
 
